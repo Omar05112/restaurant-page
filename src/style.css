@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* #background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("i-really-love-these-images-of-plushies-in-big-shoes-i-was-v0-6oox9z2ywytc1.jpg");
+  filter: grayscale(70%);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  z-index: -1;
+} */
+
+body {
+  background-image: url("i-really-love-these-images-of-plushies-in-big-shoes-i-was-v0-6oox9z2ywytc1.jpg");
+  background-size: 15vw 21vh;
+}
+header {
+  padding: 20px;
+  background-color: beige;
+}
+
+#buttons-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+button {
+  background-color: rgb(199, 199, 178);
+  width: 100px;
+  height: 50px;
+  border-style: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(175, 175, 156);
+}
+#home-container {
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+  background-color: rgb(221, 221, 197);
+  gap: 40px;
+}
+
+#restaurant-name {
+  font-size: 40px;
+  width: 600px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+#restaurant-description {
+  font-size: 30px;
+  width: 800px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+#chef-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  border: 1px solid black;
+  padding: 30px;
+  gap: 20px;
+}
+
+#chef {
+  border: 10px solid rgb(70, 64, 57);
+}
+
+#img-description {
+  font-size: 20px;
+}
+
+#content {
+  margin-bottom: 40px;
+}
