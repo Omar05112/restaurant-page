@@ -89,3 +89,64 @@ button:hover {
 #content {
   margin-bottom: 40px;
 }
+
+#disclaimer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  border: 1px solid black;
+  padding: 30px;
+  gap: 20px;
+}
+
+#disclaimer-text {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#disclaimer-desc {
+  font-size: 20px;
+}
+
+#food-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  border: 1px solid black;
+  padding: 30px;
+  gap: 10px;
+}
+
+#thisiswhatweoffer{
+  font-size: 50px;
+}
+
+#fornowig{
+padding-bottom: 35px;
+}
+
+#everyday{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#firstmeal{
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+#secondmeal{
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
