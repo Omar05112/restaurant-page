@@ -2,10 +2,11 @@ import roachimage from "./roach.png";
 import redimage from "./red.png";
 
 export const loadMenupage = () => {
+
   const content = document.getElementById("content");
 
   const menuContainer = document.createElement("div");
-  menuContainer.setAttribute("id", "home-container");
+  menuContainer.setAttribute("id", "menu-container");
   content.appendChild(menuContainer);
 
   const disclaimerContainer = document.createElement("div");

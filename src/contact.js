@@ -14,7 +14,7 @@ export const loadContactpage = () => {
   const reason = document.createElement("div");
   reason.setAttribute("id", "reason");
   reason.innerText =
-    "but for legal reasons i have to provide a number so here you go man";
+    "but for legal reasons i have to provide a number";
   contactContainer.appendChild(reason);
 
   const number = document.createElement("div");

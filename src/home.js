@@ -1,6 +1,7 @@
 import chefimage from "./chef.png";
 
 export const loadHomepage = () => {
+
   const content = document.getElementById("content");
 
   const homeContainer = document.createElement("div");

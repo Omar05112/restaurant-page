@@ -28,7 +28,7 @@ header {
   gap: 20px;
   justify-content: center;
 }
-button {
+.buttons {
   background-color: rgb(199, 199, 178);
   width: 100px;
   height: 50px;
@@ -36,9 +36,14 @@ button {
   font-size: 15px;
   cursor: pointer;
 }
-button:hover {
+
+.buttons:hover {
   background-color: rgb(175, 175, 156);
 }
+.active {
+  background-color: rgb(175, 175, 156);
+}
+
 #home-container {
   padding: 20px;
   margin-top: 40px;
@@ -90,6 +95,19 @@ button:hover {
   margin-bottom: 40px;
 }
 
+#menu-container {
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+  background-color: rgb(221, 221, 197);
+  gap: 40px;
+}
+
 #disclaimer-container {
   display: flex;
   flex-direction: column;
@@ -119,20 +137,20 @@ button:hover {
   gap: 10px;
 }
 
-#thisiswhatweoffer{
+#thisiswhatweoffer {
   font-size: 50px;
 }
 
-#fornowig{
-padding-bottom: 35px;
+#fornowig {
+  padding-bottom: 35px;
 }
 
-#everyday{
+#everyday {
   font-size: 20px;
   margin-bottom: 30px;
 }
 
-#firstmeal{
+#firstmeal {
   display: flex;
   gap: 20px;
   border: 1px solid black;
@@ -141,12 +159,44 @@ padding-bottom: 35px;
   margin-bottom: 30px;
 }
 
-
-#secondmeal{
+#secondmeal {
   display: flex;
   gap: 20px;
   border: 1px solid black;
   padding: 30px;
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+#contact-container {
+
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+  background-color: rgb(221, 221, 197);
+  gap: 40px;
+  padding-bottom: 400px;
+}
+
+#dontcallme{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#number{
+  font-size: 50px;
+  margin-top: 60px;
+}
+
+#wojak{
+  position :absolute;
+ width:700px;
+ height: 500px;
+ top: 280px;
+ border: 1px solid black;
 }
